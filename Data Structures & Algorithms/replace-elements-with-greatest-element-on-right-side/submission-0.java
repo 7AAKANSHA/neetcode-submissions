@@ -13,3 +13,14 @@ class Solution {
     }
    
 }
+/*Pattern:
+Traverse from right while carrying maxSoFar
+
+Time:
+O(n)
+
+Space:
+O(1)
+
+Mistake:
+Updated maxSoFar before replacing arr[i]*/
